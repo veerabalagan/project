@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: sans-serif;
+    font-family: border-box;
+}
+header{
+    color: #fff;
+    padding: 10px;
+    margin-top: -2px;
+    margin-bottom: 2px;
+
+}
+.banner{
+    width: 100%;
+    height: 10vh;
+    background-image:linear-gradient(rgb(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+}
+.navbar{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 40px;
+    margin-top: auto;
+    cursor: pointer;    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+li a:hover{
+    background: white;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color:black;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 70px;
+    font-weight: 800;
+    color: black;
+
+}
+.a {
+    background-color:gold;
+    margin-right: 750px;
+    margin-left: 600px;
+    border-color:  black;
+    border-style: solid; 
+    padding: 8px;
+  }
+
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background: rgb(0,155,226);
+    transition: 0.5s;
+}
+button:hover{
+    color:black;
+    font-weight: 300;
+}
+.banner video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+.a1{
+    background-color:lightsalmon;
+    margin-right: 600px;
+    margin-left: 600px;
+    border-color:  black;
+    border-style: solid; 
+    padding: 2px;
+
+}
+
+.b{
+    flex-basis: 31%;
+   background-color: darkgray;
+}
+.d{
+    background-color: lightgrey;
+    width: 1307;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+.e{
+    background-color: lightgrey;
+    width: 1307px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+.con{
+    width: 1400px;
+    padding: 10px;
+    border: 8px solid gray;
+    margin: 20px;  
+}
+.field{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+}
+
+    
+
+g b1{
+    background-color:lightsalmon;
+    margin-right: 600px;
+    margin-left: 600px;
+    border-color:  black;
+    border-style: solid; 
+}
+.f{
+    background-color:bisque;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    position: relative;
+    right: 20px;
+
+}
+.f1{
+    background-color: lightgrey;
+    border: 15px solid green;
+   padding: 2%;
+   margin-right: 500px;
+   margin-left: 600px;
+   margin-bottom: 100px;
+   margin-top: 10pxpx;
+   position: relative;
+   right: 45px;
+}
+.f2{
+    background-color: lightgrey;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    position: relative;
+    right: 45px;
+}
+.f3{
+    background-color: lightgrey;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    position: relative;
+    right: 45px;
+}
+.f4{
+    background-color: lightgrey;
+    border: 15px solid green;
+   padding: 2%;
+   margin-right: 500px;
+   margin-left: 600px;
+   margin-bottom: 300px;
+   position: relative;
+   right: 45px;
+}
+.f5{
+    background-color: lightgrey;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    position: relative;
+    right: 45px;
+}
+.f6{
+    background-color: lightgrey;
+    border: 15px solid green;
+   padding: 2%;
+   margin-right: 500px;
+   margin-left: 600px;
+   margin-bottom: 300px;
+   position: relative;
+   right: 45px;
+}
+.f7{
+    background-color: lightgrey;
+    border: 15px solid green;
+   padding: 2%;
+   margin-right: 500px;
+   margin-left: 600px;
+   margin-bottom: 300px;
+   position: relative;
+   right: 45px;
+}
+.f8{
+    background-color: lightgrey;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    position: relative;
+    right: 45px;
+}
+.f9{
+    background-color: lightgrey;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    position: relative;
+    right: 45px;
+}
+.f10{
+    background-color: lightgrey;
+    border: 15px solid green;
+   padding: 2%;
+   margin-right: 500px;
+   margin-left: 600px;
+   margin-bottom: 300px;
+   position: relative;
+   right: 45px;
+}
+.f11{
+    background-color: lightgrey;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    position: relative;
+    right: 45px;
+}
+.f12{
+    background-color: lightgrey;
+     border: 15px solid green;
+    padding: 2%;
+    margin-right: 500px;
+    margin-left: 600px;
+    margin-bottom: 300px;
+    position: relative;
+    right: 45px;
+}
+.f13{
+    background-color: lightgrey;
+    border: 15px solid green;
+   padding: 2%;
+   margin-right: 500px;
+   margin-left: 600px;
+   margin-bottom: 300px;
+   position: relative;
+   right: 45px;
+}
+.g1{
+    background-color: lightgrey;
+    width: 1307;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+
+
+    
